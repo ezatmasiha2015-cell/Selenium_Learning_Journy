@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Regression Suite]" verbose="4">
+  <test thread-count="5" name="googleTest(failed)" verbose="4">
+    <parameter name="url" value="https://www.google.com"/>
+    <classes>
+      <class name="mytests.googleTest">
+        <methods>
+          <include name="googleURLTest"/>
+          <include name="googleTitleTest"/>
+          <include name="setup"/>
+          <include name="teaDown"/>
+        </methods>
+      </class> <!-- mytests.googleTest -->
+    </classes>
+  </test> <!-- googleTest(failed) -->
+  <test thread-count="5" name="retailCartTest(failed)" verbose="4">
+    <parameter name="url" value="https://qa.dmvtek.com/retail"/>
+    <classes>
+      <class name="mytests.retailCartTest">
+        <methods>
+          <include name="retailURLTest"/>
+          <include name="retailCartTitleTest"/>
+          <include name="setup"/>
+          <include name="teaDown"/>
+        </methods>
+      </class> <!-- mytests.retailCartTest -->
+    </classes>
+  </test> <!-- retailCartTest(failed) -->
+  <test thread-count="5" name="alibabaTest(failed)" verbose="4">
+    <parameter name="url" value="https://www.alibaba.com"/>
+    <classes>
+      <class name="mytests.alibabaTest">
+        <methods>
+          <include name="alibabaURLTest"/>
+          <include name="setup"/>
+          <include name="alibabaTitleTest"/>
+          <include name="teaDown"/>
+        </methods>
+      </class> <!-- mytests.alibabaTest -->
+    </classes>
+  </test> <!-- alibabaTest(failed) -->
+</suite> <!-- Failed suite [TestNG Regression Suite] -->

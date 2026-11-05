@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<suite name="TestNG Regression Suite" verbose="4">
+
+    <test name="googleTest">
+    <parameter name = "url" value ="https://www.google.com"/>
+        <classes>
+            <class name="mytests.googleTest"/>
+        </classes>
+    </test>
+
+    <test name="retailCartTest">
+     <parameter name = "url" value ="https://qa.dmvtek.com/retail"/>
+        <classes>
+            <class name="mytests.retailCartTest"/>
+        </classes>
+    </test>
+      <test name="alibabaTest">
+       <parameter name = "url" value ="https://www.alibaba.com"/>
+        <classes>
+            <class name="mytests.alibabaTest"/>
+        </classes>
+    </test>
+
+</suite>\

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-15T06:01:47 ICT" name="TestNG Regression Suite" finished-at="2026-10-15T06:02:56 ICT" duration-ms="68694">
+    <groups>
+    </groups>
+    <test started-at="2026-10-15T06:01:47 ICT" name="googleTest" finished-at="2026-10-15T06:02:04 ICT" duration-ms="17283">
+      <class name="mytests.googleTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:mytests.googleTest@6025e1b6]" started-at="2026-10-15T06:01:47 ICT" name="setup" finished-at="2026-10-15T06:02:03 ICT" duration-ms="15901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleTitleTest()[pri:1, instance:mytests.googleTest@6025e1b6]" started-at="2026-10-15T06:02:03 ICT" name="googleTitleTest" finished-at="2026-10-15T06:02:04 ICT" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method signature="googleURLTest()[pri:2, instance:mytests.googleTest@6025e1b6]" started-at="2026-10-15T06:02:04 ICT" name="googleURLTest" finished-at="2026-10-15T06:02:04 ICT" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleURLTest -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:mytests.googleTest@6025e1b6]" started-at="2026-10-15T06:02:04 ICT" name="teaDown" finished-at="2026-10-15T06:02:04 ICT" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+      </class> <!-- mytests.googleTest -->
+    </test> <!-- googleTest -->
+    <test started-at="2026-10-15T06:02:05 ICT" name="retailCartTest" finished-at="2026-10-15T06:02:13 ICT" duration-ms="8699">
+      <class name="mytests.retailCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:mytests.retailCartTest@8297b3a]" started-at="2026-10-15T06:02:05 ICT" name="setup" finished-at="2026-10-15T06:02:13 ICT" duration-ms="8220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://qa.dmvtek.com/retail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="retailCartTitleTest()[pri:1, instance:mytests.retailCartTest@8297b3a]" started-at="2026-10-15T06:02:13 ICT" name="retailCartTitleTest" finished-at="2026-10-15T06:02:13 ICT" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retailCartTitleTest -->
+        <test-method signature="retailURLTest()[pri:2, instance:mytests.retailCartTest@8297b3a]" started-at="2026-10-15T06:02:13 ICT" name="retailURLTest" finished-at="2026-10-15T06:02:13 ICT" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retailURLTest -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:mytests.retailCartTest@8297b3a]" started-at="2026-10-15T06:02:13 ICT" name="teaDown" finished-at="2026-10-15T06:02:13 ICT" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+      </class> <!-- mytests.retailCartTest -->
+    </test> <!-- retailCartTest -->
+    <test started-at="2026-10-15T06:02:13 ICT" name="alibabaTest" finished-at="2026-10-15T06:02:56 ICT" duration-ms="42593">
+      <class name="mytests.alibabaTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:mytests.alibabaTest@3bd82cf5]" started-at="2026-10-15T06:02:13 ICT" name="setup" finished-at="2026-10-15T06:02:53 ICT" duration-ms="40223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.alibaba.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="alibabaTitleTest()[pri:1, instance:mytests.alibabaTest@3bd82cf5]" started-at="2026-10-15T06:02:53 ICT" name="alibabaTitleTest" finished-at="2026-10-15T06:02:54 ICT" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alibabaTitleTest -->
+        <test-method signature="alibabaURLTest()[pri:2, instance:mytests.alibabaTest@3bd82cf5]" started-at="2026-10-15T06:02:54 ICT" name="alibabaURLTest" finished-at="2026-10-15T06:02:55 ICT" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alibabaURLTest -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:mytests.alibabaTest@3bd82cf5]" started-at="2026-10-15T06:02:55 ICT" name="teaDown" finished-at="2026-10-15T06:02:56 ICT" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+      </class> <!-- mytests.alibabaTest -->
+    </test> <!-- alibabaTest -->
+  </suite> <!-- TestNG Regression Suite -->
+</testng-results>
